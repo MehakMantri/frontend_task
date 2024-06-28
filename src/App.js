@@ -2,7 +2,7 @@ import React from "react";
 import "./assets/css/style.css";
 import { connect } from "react-redux";
 import "../node_modules/antd/dist/antd.css";
-import MainComponent from "./components/mainComponent";
+import MainComponent from "./components/MainComponent";
 import { addUser, getUsers } from "./actions/userActions";
 
 function App(props) {
